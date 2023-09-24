@@ -8,7 +8,7 @@ import Search from "./components/Search";
 
 function App() {
   return (
-    <div >
+    <div basename={'/react-app'}>
       <Navbar />
       <Hero />
       <About />
